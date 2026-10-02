@@ -403,15 +403,6 @@ alembic upgrade head
 
 
 
-# Running the Application
-Start the FastAPI server:
-```bash
-uvicorn app.main:app --reload
-```
-The API will be available at:
-```bash
-http://127.0.0.1:8000
-```
 
 
 # API Documentation
@@ -1397,7 +1388,7 @@ python -m venv venv
 Windows:
 ```bash
 venv\Scripts\activate
-``
+```
 Linux/macOS:
 ```bash
 source venv/bin/activate
